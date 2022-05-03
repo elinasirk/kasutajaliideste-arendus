@@ -1,0 +1,17 @@
+h3 {
+    color: #272726;
+    font-family: "Montez", Sans-serif;
+    font-size: 3.5em;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 0.8em;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.btn-primary {
+    background-color: #E6BE2A;
+    border-color: #E6BE2A;
+    color: #3B3830;
+}
+
