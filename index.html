@@ -16,13 +16,13 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-3 text-white">Apollo e-pood</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">Apollo kino</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">Blender</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">O'Learys</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">Apotheka</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">Apotheka beauty</a></li>
-                        <li><a href="#" class="nav-link px-3 text-white">Pet city</a></li>
+                        <li><a target="_blank" rel="noopener" href="http://www.apollo.ee" class="nav-link px-3 text-white">Apollo e-pood</a></li>
+                        <li><a target="_blank" rel="noopener"  href="http://www.apollokino.ee" class="nav-link px-3 text-white">Apollo kino</a></li>
+                        <li><a target="_blank" rel="noopener"  href="http://www.blenderjuice.ee" class="nav-link px-3 text-white">Blender</a></li>
+                        <li><a target="_blank" rel="noopener"  href="http://www.olearys.ee" class="nav-link px-3 text-white">O'Learys</a></li>
+                        <li><a target="_blank" rel="noopener"  href="http://www.apotheka.ee" class="nav-link px-3 text-white">Apotheka</a></li>
+                        <li><a target="_blank" rel="noopener"  href="https://www.apothekabeauty.ee/" class="nav-link px-3 text-white">Apotheka beauty</a></li>
+                        <li><a target="_blank" rel="noopener"  href="http://www.petcity.ee" class="nav-link px-3 text-white">Pet city</a></li>
                     </ul>
 
                 </div>
@@ -50,23 +50,46 @@
         </header>
 
         <!--Ülevalt teine nav, ainult väiksel ekraanil näha-->
-        <header class="p-4 bg-light text-black d-lg-none">
-            <div class="dropdown">
-                <div class="container">
-                    <ul class="nav col-12  mb-2 justify-content-center mb-md-0 .ml-auto">
-                        <li><a href="#" class="nav-link px-3"><img src="pildid/cropped-Vapiano@300x.png" width="130"></img></a></li>
-                        <li><button class=" navbar-toggler toggler-example" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button><span class="dark-blue-text"><i
-                        class="fas fa-bars fa-1x"></i></span></button></li>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                            <button class="dropdown-item" type="button">Action</button>
-                            <button class="dropdown-item" type="button">Another action</button>
-                            <button class="dropdown-item" type="button">Something else here</button>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </header>
 
+        <nav class="navbar navbar-light
+         p-4 bg-light text-black d-lg-none" aria-label="First navbar example">
+          <div class="container-fluid  justify-content-center">
+            <a class="navbar-brand " href="#"><img src="pildid/cropped-Vapiano@300x.png" width="130"></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+              <ul class="navbar-nav me-auto mb-2 text-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Menüü</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Restoranid</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pakkumised</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Üritused</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blogi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galerii</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tule tööle</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Meist</a>
+                </li>               
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
         <!--karusell-->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -105,11 +128,11 @@
 
     <!--oliivid-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-3 md col-xs-12"><img src="pildid/Olive1.png" class="img-fluid"></div>
-            <div class="col-md-6 col-xs-12 text-center align-self-center"><h3>"Chi va piano, va sano e va lontano."</h3></div>
-            <div class="col-md-3 col-xs-12"><img src="pildid/Olive2.png" class="img-fluid"></div>
-        </div>
-    </div>
+      <div class="row">
+          <div class="col-2"><img src="pildid/Olive1.png" class="img-fluid"></div>
+          <div class="col-8 text-center align-self-center"><h3>"Chi va piano, va sano e va lontano."</h3></div>
+          <div class="col-2"><img src="pildid/Olive2.png" class="img-fluid"></div>
+      </div>
+  </div>
 </body>
 </html>
